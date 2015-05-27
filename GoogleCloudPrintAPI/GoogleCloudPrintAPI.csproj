@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F9BF2FDF-50E1-456F-AC0E-9DBF264CAA07}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>GoogleCloudPrintAPI</RootNamespace>
+    <AssemblyName>GoogleCloudPrintAPI</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.8\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Exceptions\CloudPrintAuthenticationException.cs" />
+    <Compile Include="Exceptions\CloudPrintException.cs" />
+    <Compile Include="Exceptions\GoogleAuthenticationException.cs" />
+    <Compile Include="GoogleAuthentication.cs" />
+    <Compile Include="GoogleCloudPrint.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Helpers\HttpHelper.cs" />
+    <Compile Include="Helpers\LowercaseContractResolver.cs" />
+    <Compile Include="Model\Access.cs" />
+    <Compile Include="Model\Capabilities.cs" />
+    <Compile Include="Model\Collate.cs" />
+    <Compile Include="Model\CollateTicket.cs" />
+    <Compile Include="Model\Color.cs" />
+    <Compile Include="Model\ColorOptopn.cs" />
+    <Compile Include="Model\ColorTicket.cs" />
+    <Compile Include="Model\Copies.cs" />
+    <Compile Include="Model\CopiesTicket.cs" />
+    <Compile Include="Model\DPI.cs" />
+    <Compile Include="Model\DPIOption.cs" />
+    <Compile Include="Model\DPITicket.cs" />
+    <Compile Include="Model\Duplex.cs" />
+    <Compile Include="Model\DuplexOption.cs" />
+    <Compile Include="Model\DuplexTicket.cs" />
+    <Compile Include="Model\Job.cs" />
+    <Compile Include="Model\JobListener.cs" />
+    <Compile Include="Model\JobStatus.cs" />
+    <Compile Include="Model\MediaSize.cs" />
+    <Compile Include="Model\MediaSizeOption.cs" />
+    <Compile Include="Model\MediaSizeTicket.cs" />
+    <Compile Include="Model\PageOrientation.cs" />
+    <Compile Include="Model\PageOrientationOption.cs" />
+    <Compile Include="Model\PageOrientationTicket.cs" />
+    <Compile Include="Model\Printer.cs" />
+    <Compile Include="Model\PrinterCapability.cs" />
+    <Compile Include="Model\PrinterStatus.cs" />
+    <Compile Include="Model\PrintTicket.cs" />
+    <Compile Include="Model\Responses\CloudPrintResponse.cs" />
+    <Compile Include="Model\Responses\ControlJobResponse.cs" />
+    <Compile Include="Model\Responses\DeleteJobResponse.cs" />
+    <Compile Include="Model\Responses\DeletePrinterResponse.cs" />
+    <Compile Include="Model\Responses\FecthJobResponse.cs" />
+    <Compile Include="Model\Responses\JobResponse.cs" />
+    <Compile Include="Model\Responses\ListPrinterResponse.cs" />
+    <Compile Include="Model\Responses\PrinterInformationResponse.cs" />
+    <Compile Include="Model\Responses\RegisterPrinterResponse.cs" />
+    <Compile Include="Model\Responses\SearchPrinterResponse.cs" />
+    <Compile Include="Model\Responses\SharePrinterResponse.cs" />
+    <Compile Include="Model\Responses\SubmitJobResponse.cs" />
+    <Compile Include="Model\Responses\UpdatePrinterResponse.cs" />
+    <Compile Include="Model\RoleShare.cs" />
+    <Compile Include="Model\SelectCapability.cs" />
+    <Compile Include="Model\SelectCapabilityOption.cs" />
+    <Compile Include="Model\SubmitJob.cs" />
+    <Compile Include="Model\SupportedContentType.cs" />
+    <Compile Include="Model\Ticket.cs" />
+    <Compile Include="Model\TypedValueCapability.cs" />
+    <Compile Include="Model\VendorCapability.cs" />
+    <Compile Include="Model\VendorTicketItem.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

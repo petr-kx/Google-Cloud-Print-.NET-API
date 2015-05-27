@@ -1,0 +1,7 @@
+C:\Users\sawadee-2\Documents\Visual Studio 2012\Projects\Gcp\GoogleCloudPrintAPI\bin\Debug\GoogleCloudPrintAPI.dll
+C:\Users\sawadee-2\Documents\Visual Studio 2012\Projects\Gcp\GoogleCloudPrintAPI\bin\Debug\GoogleCloudPrintAPI.pdb
+C:\Users\sawadee-2\Documents\Visual Studio 2012\Projects\Gcp\GoogleCloudPrintAPI\bin\Debug\Newtonsoft.Json.dll
+C:\Users\sawadee-2\Documents\Visual Studio 2012\Projects\Gcp\GoogleCloudPrintAPI\bin\Debug\Newtonsoft.Json.xml
+C:\Users\sawadee-2\Documents\Visual Studio 2012\Projects\Gcp\GoogleCloudPrintAPI\obj\Debug\GoogleCloudPrintAPI.csprojResolveAssemblyReference.cache
+C:\Users\sawadee-2\Documents\Visual Studio 2012\Projects\Gcp\GoogleCloudPrintAPI\obj\Debug\GoogleCloudPrintAPI.dll
+C:\Users\sawadee-2\Documents\Visual Studio 2012\Projects\Gcp\GoogleCloudPrintAPI\obj\Debug\GoogleCloudPrintAPI.pdb

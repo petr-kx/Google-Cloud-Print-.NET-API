@@ -1,0 +1,10 @@
+C:\Users\sawadee-2\Documents\Visual Studio 2012\Projects\Gcp\GoogleCloudPrintExample\bin\Debug\GoogleCloudPrintExample.exe.config
+C:\Users\sawadee-2\Documents\Visual Studio 2012\Projects\Gcp\GoogleCloudPrintExample\bin\Debug\GoogleCloudPrintExample.exe
+C:\Users\sawadee-2\Documents\Visual Studio 2012\Projects\Gcp\GoogleCloudPrintExample\bin\Debug\GoogleCloudPrintExample.pdb
+C:\Users\sawadee-2\Documents\Visual Studio 2012\Projects\Gcp\GoogleCloudPrintExample\obj\Debug\GoogleCloudPrintExample.exe
+C:\Users\sawadee-2\Documents\Visual Studio 2012\Projects\Gcp\GoogleCloudPrintExample\obj\Debug\GoogleCloudPrintExample.pdb
+C:\Users\sawadee-2\Documents\Visual Studio 2012\Projects\Gcp\GoogleCloudPrintExample\bin\Debug\GoogleCloudPrintAPI.dll
+C:\Users\sawadee-2\Documents\Visual Studio 2012\Projects\Gcp\GoogleCloudPrintExample\bin\Debug\GoogleCloudPrintAPI.pdb
+C:\Users\sawadee-2\Documents\Visual Studio 2012\Projects\Gcp\GoogleCloudPrintExample\obj\Debug\GoogleCloudPrintExample.csprojResolveAssemblyReference.cache
+C:\Users\sawadee-2\Documents\Visual Studio 2012\Projects\Gcp\GoogleCloudPrintExample\bin\Debug\Newtonsoft.Json.dll
+C:\Users\sawadee-2\Documents\Visual Studio 2012\Projects\Gcp\GoogleCloudPrintExample\bin\Debug\Newtonsoft.Json.xml
